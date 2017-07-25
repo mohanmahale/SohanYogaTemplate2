@@ -54,14 +54,5 @@ $(window).load(function () {
             });
         }
     }
-    function close_page(page) {
-        $('#menu a').removeClass('active').find(' > span').stop().animate({ opacity: '0' }, 600);
-        Cufon.replace('#menu a', { fontFamily: 'Questrial', hover: true });
-        location.hash = '#';
-        $(act).find('.box1').stop().animate({ height: '0' }, 700, 'easeOutCirc', function () {
-            $(act).css({ display: 'none' });
-            act = '';
-        });
-        return false;
-    }
+    
 })

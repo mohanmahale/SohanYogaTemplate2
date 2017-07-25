@@ -1,3 +1,5 @@
 ﻿@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
 body{margin-top:20px;}
 .fa-fw {width: 2em;}
+
+.infocontainer{height:750px; position: relative;background:url(../images/content_bg.png) repeat;overflow-y: scroll;border: none}
