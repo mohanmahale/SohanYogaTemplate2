@@ -21,6 +21,14 @@
             allWells.hide();
             navListItems.removeClass("active");
         });
-
-   
+});
+$(document).ready(function () {
+    var allWells = $('.content');
+    var linkitem = $('.readmorelink');
+    linkitem.click(function (e) {
+        e.preventDefault();
+        allWells.hide();
+        var linktarget = $(this).attr('data-target-id');
+        $('#' + linktarget).fadeIn(1000);
+    });
 });

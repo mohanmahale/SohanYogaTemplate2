@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" />
     <link href="css/sample.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
-
-
 </head>
 <body class="background">
     <div class="container" style="padding-top: 30px;">  
@@ -18,13 +16,11 @@
                     </h1>
                 <ul class="nav nav-pills nav-stacked menu text-center" style="padding-top: 40px;">
                     <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
-                        <ul class="dropdown-menu">
-                          
-                                <li><a href="">Sohan Yoga</a></li>
-                                <li><a href="">FAQ</a></li>
-                                <li><a href="">Founder</a></li>
-                            
-                        </ul></li>
+                        <div style="margin-left: 10px;" class="dropdown-menu">
+                               <a class="readmorelink" href="" data-target-id="sohanyoga">Sohan Yoga</a>
+                               <a class="readmorelink" href="" data-target-id="faq">FAQ</a>
+                               <a class="readmorelink" href="" data-target-id="founder">Founder</a>
+                        </div></li>
                     <li><a href="#" data-target-id="courses">Courses</a></li>
                     <li><a href="#" data-target-id="events">Events</a></li>
                     <li><a href="#" data-target-id="contact">Contact</a></li>
@@ -32,58 +28,70 @@
              </div>
 
             <article style="padding-top: 18px;">
-                <div class="col-md-9 well content infocontainer" id="about">
+                <!--<div class="col-md-9 well content infocontainer" id="about">
                     <h2>About</h2>
-                </div>
+                </div>-->
                 <div class="col-md-9 well content infocontainer" id="courses">
                     <div class="inner">
                         <h2>Course</h2>
                         <div class="pad_bot3">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/Auxiliary Workshop.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#" class="link1" data-target-id="course1"><span style="">Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#" class="link1 readmorelink" data-target-id="course1"><span style="">Read More</span></a>
                             </p>
                         </div>
                         <div class="pad_bot4">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/One month coach upgrade class.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#!/page_More" class="link1" target="_blank"><span>Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#!/page_More" data-target-id="course2" class="link1 readmorelink"><span>Read More</span></a>
                             </p>
                         </div>
                         <div class="pad_bot3">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/OneMonthJuniorCoaching.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#!/page_More" class="link1" target="_blank"><span>Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#!/page_More" data-target-id="course3" class="link1 readmorelink"><span>Read More</span></a>
                             </p>
                         </div>
                         <div class="pad_bot4">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/TwoMonthSeniorCoaching.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#!/page_More" class="link1" target="_blank"><span>Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#!/page_More" data-target-id="course5" class="link1 readmorelink"><span>Read More</span></a>
                             </p>
                         </div>
                         <div class="pad_bot3">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/TreeMonthZeroFoundation.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#!/page_More" class="link1" target="_blank"><span>Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#!/page_More" data-target-id="course5" class="link1 readmorelink"><span>Read More</span></a>
                             </p>
                         </div>
                         <div class="pad_bot4">
                             <figure class="left marg_right1"><img src="images/FeaturedProgram/Yogahysiotherapy Course.jpg" alt=""></figure>
-                            <p class="pad_bot2"><strong>Lorem ipsum</strong>
+                            <p class="pad_bot2">
+                                <strong>Lorem ipsum</strong>
                             </p>
-                            <p class="pad_bot1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
-                            <a href="#!/page_More" class="link1" target="_blank"><span>Read More</span></a>
+                            <p class="pad_bot1">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.
+                                <a href="#!/page_More" data-target-id="course6" class="link1 readmorelink"><span>Read More</span></a>
                             </p>
                         </div>
                     </div>
@@ -94,29 +102,29 @@
                         <div class="col-md-4" style="border-right: 1px solid">
                             <h3>Upcoming Events</h3>
                             <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                </ul>
-                            
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                            </ul>
+
                         </div>
                         <div class="col-md-4" style="border-right: 1px solid">
                             <h3>Past Events</h3>
                             <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
-                                </ul>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="https://www.instagram.com/?hl=en" target="_blank" class="link1"><span>Read more</span></a></li>
+                            </ul>
 
-                            </div>
+                        </div>
                         <div class="col-md-4">
                             <h3>News</h3>
                             <ul>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br/><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
-                                </ul>
-                            </div>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit<br /><a href="" target="_blank" class="link1"><span>Read more</span></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-9 well content infocontainer" id="contact">
@@ -124,11 +132,14 @@
                         <h2>Contact</h2>
                         <form id="ContactForm">
                             <div>
-                                <div class="wrapper"><input class="input" type="text" value="Name" onblur="if (this.value == '') this.value = 'Name'" onFocus="if (this.value == 'Name') this.value = ''">
+                                <div class="wrapper">
+                                    <input class="input" type="text" value="Name" onblur="if (this.value == '') this.value = 'Name'" onFocus="if (this.value == 'Name') this.value = ''">
                                 </div>
-                                <div class="wrapper"><input class="input" type="text" value="Email" onblur="if (this.value == '') this.value = 'Email'" onFocus="if (this.value == 'Email') this.value = ''">
+                                <div class="wrapper">
+                                    <input class="input" type="text" value="Email" onblur="if (this.value == '') this.value = 'Email'" onFocus="if (this.value == 'Email') this.value = ''">
                                 </div>
-                                <div class="textarea_box"><textarea cols="1" rows="1" onBlur="if (this.value == '') this.value = 'Message'" onFocus="if (this.value == 'Message') this.value = ''">Message</textarea>
+                                <div class="textarea_box">
+                                    <textarea cols="1" rows="1" onBlur="if (this.value == '') this.value = 'Message'" onFocus="if (this.value == 'Message') this.value = ''">Message</textarea>
                                 </div>
                                 <a href="#" class="color1" onClick="document.getElementById('ContactForm').submit()">Send</a>
                                 <a href="#" class="color1" onClick="document.getElementById('ContactForm').reset()">Clear</a>
@@ -139,45 +150,189 @@
 
                 <div class="col-md-9 well content infocontainer" id="course1">
                     <div class="inner">
-                        <h2>Course Name</h2>
+                        <h2>Course1</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/Auxiliary Workshop.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
                     </div>
                 </div>
-
-
-
+                <div class="col-md-9 well content infocontainer" id="course2">
+                    <div class="inner">
+                        <h2>Course2</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/One month coach upgrade class.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 well content infocontainer" id="course3">
+                    <div class="inner">
+                        <h2>Course3</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/OneMonthJuniorCoaching.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 well content infocontainer" id="course4">
+                    <div class="inner">
+                        <h2>Course4</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/TwoMonthSeniorCoaching.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 well content infocontainer" id="course5">
+                    <div class="inner">
+                        <h2>Course5</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/TreeMonthZeroFoundation.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-md-9 well content infocontainer" id="course6">
+                <div class="inner">
+                    <h2>Course6</h2>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <figure><img src="images/FeaturedProgram/Yogahysiotherapy Course.jpg" /></figure>
+                        </div>
+                        <div class="col-md-6">
+                            Course Name
+                        </div>
+                    </div>
+                    <div class="col-md-12 course-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 well content infocontainer" id="sohanyoga">
+                <div class="inner">
+                    <h2>Sohan Yoga</h2>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <figure><img src="images/FeaturedProgram/Yogahysiotherapy Course.jpg" /></figure>
+                        </div>
+                        <div class="col-md-6">
+                            Course Name
+                        </div>
+                    </div>
+                    <div class="col-md-12 course-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 well content infocontainer" id="faq">
+                <div class="inner">
+                    <h2>FAQ</h2>
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <figure><img src="images/FeaturedProgram/Yogahysiotherapy Course.jpg" /></figure>
+                        </div>
+                        <div class="col-md-6">
+                            Course Name
+                        </div>
+                    </div>
+                    <div class="col-md-12 course-content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-9 well content infocontainer" id="founder">
+                    <div class="inner">
+                        <h2>Founder</h2>
+                        <div class="col-md-12">
+                            <div class="col-md-6">
+                                <figure><img src="images/FeaturedProgram/Yogahysiotherapy Course.jpg" /></figure>
+                            </div>
+                            <div class="col-md-6">
+                                Course Name
+                            </div>
+                        </div>
+                        <div class="col-md-12 course-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inciddunt ut labore et dolore magna aliqua nostrud exercitation.</p>
+                        </div>
+                </div>
+            </div>
 
             </article>
+            <div class="sticky-container">
+                <ul class="sticky">
+                    <li>
+                        <img src="images/social media logo/facebook.png" width="32" height="32">
+                        <p>
+                            <a href="#" target="_blank"></a>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/social media logo/twitter.png" width="32" height="32">
+                        <p>
+                            <a href="#" target="_blank"></a>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/social media logo/Google_plus.png" width="32" height="32">
+                        <p>
+                            <a href="#" target="_blank"></a>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/social media logo/youtube.png" width="32" height="32">
+                        <p>
+                            <a href="#" target="_blank"></a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
             <footer>
-
-                <div class="sticky-container">
-                    <ul class="sticky">
-                        <li><img src="images/social media logo/facebook.png" width="32" height="32">
-                            <p><a href="#" target="_blank"></a>
-                            </p></li>
-                        <li><img src="images/social media logo/twitter.png" width="32" height="32">
-                            <p><a href="#" target="_blank"></a>
-                            </p></li>
-                        <li><img src="images/social media logo/Google_plus.png" width="32" height="32">
-                            <p><a href="#" target="_blank"></a>
-                            </p></li>
-                        <li><img src="images/social media logo/youtube.png" width="32" height="32">
-                            <p><a href="#" target="_blank"></a>
-                            </p></li>
-                    </ul>
-                </div>
-                <div class="col_2 text-center">
-                    <span>Sohan Yoga</span> Copyright 2017<br>
-
+                <div class="container text-left">
+                    Copyright &copy; 2017
                 </div>
                 <!-- {%FOOTER_LINK} -->
             </footer>
         </div>
     </div>
-
-    <!--<script src="js/jquery-1.6.js"></script>-->
     
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/sample.js" type="text/javascript"></script>
 <script>

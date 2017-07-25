@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Cources\Cource1.html" />
     <Content Include="images\Sohan_Pic\background.jpg" />
     <Content Include="images\Sohan_Pic\background1.jpg" />
     <Content Include="images\Sohan_Pic\front2.jpg" />
@@ -245,7 +246,6 @@
     <Content Include="js\Questrial_400.font.js" />
     <Content Include="js\sample.js" />
     <Content Include="js\script.js" />
-    <Content Include="Index.html" />
     <Content Include="Sample.html" />
     <Content Include="Web.config" />
   </ItemGroup>
