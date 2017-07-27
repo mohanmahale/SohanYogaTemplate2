@@ -171,7 +171,8 @@ footer {
 .dropdown-submenu:hover>a:after{border-left-color:#555;}
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;}
 .dropdown-submenu:hover .dropdown-menu{ display: block;border: none;}
-.dropdown-menu{ border-radius: 0px;box-shadow: none;}
+.dropdown-menu{ border-radius: 0px;box-shadow: none;color: }
+
 .nav-pills li a:hover{ background-color: #08afee;color: #fff; }
 .nav-pills:active{}
 .dropdown-menu a{color: black;
@@ -180,13 +181,13 @@ footer {
     display: block;;}
                   
 
-.background{background-image: url(../images/Sohan_Pic/background1.jpg); background-repeat: no-repeat; background-position: center;}
+.background{background-image: url(../images/Sohan_Pic/bg3.jpg); background-repeat: no-repeat;width: 100%;background-attachment: fixed;background-position: center}
 span{font-size: 12px; float: right;}
 .readmorelink {
     
 }
 .course-content {
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .course-image {
     /*padding: 10px;*/
